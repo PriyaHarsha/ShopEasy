@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  font-family: "Merriweather", serif;
+  line-height: 26px;
+  font-size: 18px;
+  box-shadow: 0 6px 6px -6px rgb(76, 75, 76);
+  --webkit-box-shadow: 0 6px 6px -6px gray;
+  border-bottom:2px solid rgb(80, 76, 76);
+}
+
+.logo{
+  max-width: 50% !important;
+}
+
+.nav-link {
+  font-weight: 400 !important;
+  color: black;
+  padding:10px;
+}
+
+.nav-link:hover{
+  text-decoration: none !important;
+  background-color: antiquewhite !important;
+}
+
+.navbar-brand{
+  width:15%;
+}
+
+
+
+.active {
+  border-bottom: 2px solid black !important;
+ 
+}
+
+/*Footer*/
+.footer{
+  background-color: rgb(222, 150, 203);
+  background: -webkit-linear-gradient(to right, rgb(222, 150, 203), rgb(192, 41, 152));
+  background: linear-gradient(to right,
+    rgb(179, 174, 177),
+    rgb(65, 92, 79));
+    color: black;
+    font-size: 16px;
+}
+.d-flex h4{
+  font-weight: bolder;
+}
+.list a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.list a:hover{
+  background-color: rgb(142, 137, 132);
+}
+
+/*Page Not Found*/
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  flex-wrap: wrap;
+  
+}
+
+.pnf-detail{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.pnf-title{
+  font-size: 9rem;
+  font-weight: 800;
+  color: rgb(11, 11, 29);
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: #e4e3e3;
+  align-self: center;
+}
+.pnf-image{
+  width: 20vw;
+  max-height: 40vh;
+}
+
+/* .set-background{
+  background-color: rgb(240, 240, 240);
+    background: linear-gradient(to bottom,
+        rgb(226, 243, 243),
+        rgb(202, 210, 212));
+} */
+
+
+.container{
+  background-color: rgb(190, 216, 216);
+  background: linear-gradient(to bottom,
+        rgb(190, 216, 216),
+        rgb(89, 169, 189));
+}
+
+.delete-product{
+  margin-left: 45px;
+}
+
+.normal-text{
+  font-weight: 300;
+}
+
+.product-link{
+  text-decoration: none;
+  color:black;
+}
