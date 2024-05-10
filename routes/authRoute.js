@@ -84,7 +84,9 @@ router.put(
 
 ////get api key
 router.get("/getkey", requireSignIn, (req, res) =>{ 
-  console.log(process.env.RAZORPAY_API_KEY)
-  res.status(200).json({ key: process.env.RAZORPAY_API_KEY })}
+  res.status(200).send({
+    success: true,
+    key: process.env.RAZORPAY_API_KEY,
+  })}
 );
 export default router;
