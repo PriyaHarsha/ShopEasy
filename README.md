@@ -16,6 +16,10 @@ This repository contains an Online Cloths and Skin care Shopping App built using
 
 [Working Demo] (https://shopeasy-wmgu.onrender.com)
 
+### Login Credentials
+Admin email: admin@admin.com
+Admin password: Admin@123
+
 **Tech Stacks**
 ---
 - ```React.js``` : For front end.
