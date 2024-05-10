@@ -20,6 +20,8 @@ This repository contains an Online Cloths and Skin care Shopping App built using
 Admin email: admin@admin.com ||
 Admin password: Admin@123
 
+SignUp for user Login
+
 **Tech Stacks**
 ---
 - ```React.js``` : For front end.
