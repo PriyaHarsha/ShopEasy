@@ -3,13 +3,13 @@
 This repository contains an Online Cloths and Skin care Shopping App built using MERN stack.
 
 **Features**
-1.  Product Browising and product details browsing: User can browse all products and also can view the details of the produtc.
+1.  Product Browising and product details browsing: User can browse all products and also can view the details of the product.
 2.  Filters: Users can apply filters based on category and price.
 3.  Search: Users can search products
 4.  Login and sign Up: New users can signUp using signUp functionality and existing users can login using login functionality.
 6.  User account Management and Password rest
 7.  Add to Cart: Only logged in user can add products to cart
-8.  Add to Whishlist: Only logged in user can add products to wishlist
+8.  Add to Wishlist: Only logged in user can add products to wishlist
 9.  Payment Gateway using razorPay
 10. Order history and tracking
 11. Review and Ratig: Customers who purchased the product can add Review and Rating
